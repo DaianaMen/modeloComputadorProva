@@ -1,0 +1,18 @@
+###
+POST http://localhost:1234/computador/cadastrar
+Content-Type: application/json
+
+{
+    "dono": "Dono Teste",
+    "placamae": "DUEX DX H110Z...",
+    "processador": "Intel Core i7",
+    "memoria": 12,
+    "armazenamento": "500GB SSD",
+    "fonte": "fonte"
+}
+
+###
+GET http://localhost:1234/computador/listar
+
+
+DELETE http://localhost:1234/computador/remover/60e37fcdcfe73b88b0045d59
