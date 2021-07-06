@@ -3,7 +3,7 @@ POST http://localhost:1234/computador/cadastrar
 Content-Type: application/json
 
 {
-    "dono": "Dono Teste",
+    "dono": "Daiana Menezes",
     "placamae": "DUEX DX H110Z...",
     "processador": "Intel Core i7",
     "memoria": 12,
@@ -14,5 +14,5 @@ Content-Type: application/json
 ###
 GET http://localhost:1234/computador/listar
 
-
-DELETE http://localhost:1234/computador/remover/60e37fcdcfe73b88b0045d59
+###
+DELETE http://localhost:1234/computador/remover/60e39cfbb7a6eb9744765064

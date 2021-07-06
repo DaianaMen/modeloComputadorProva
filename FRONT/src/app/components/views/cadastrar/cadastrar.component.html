@@ -1,0 +1,39 @@
+<h1> Novo Computador </h1>
+<mat-card>
+    <mat-card-content>
+
+        <mat-form-field class="dono">
+            <mat-label for="dono">Dono</mat-label>
+            <input matInput placeholder="Dono" type="text" name="dono" [(ngModel)]="dono" />
+        </mat-form-field>
+        <br/>
+        <mat-form-field class="placamae">
+            <mat-label for="placamae">Placa Mãe</mat-label>
+            <input matInput placeholder="Placa Mãe" type="text" name="placamae" [(ngModel)]="placamae" />
+        </mat-form-field>
+        <br/>
+        <mat-form-field class="processador">
+            <mat-label for="processador">processador</mat-label>
+            <input matInput placeholder="processador" type="text" name="processador" [(ngModel)]="processador" />
+        </mat-form-field>
+        <br/>
+        <mat-form-field class="memoria">
+            <mat-label for="memoria">memoria</mat-label>
+            <input matInput placeholder="memoria" type="number" name="memoria" [(ngModel)]="memoria" />
+        </mat-form-field>
+        <br/>
+        <mat-form-field class="armazenamento">
+            <mat-label for="armazenamento">armazenamento</mat-label>
+            <input matInput placeholder="armazenamento" type="text" name="armazenamento" [(ngModel)]="armazenamento" />
+        </mat-form-field>
+        <br/>
+        <mat-form-field class="fonte">
+            <mat-label for="fonte">fonte</mat-label>
+            <input matInput placeholder="fonte" type="text" name="fonte" [(ngModel)]="fonte" />
+        </mat-form-field>
+        <br/>
+        <mat-card-actions>
+            <button mat-raised-button color="primary" (click)="cadastrar()">Cadastrar</button>
+        </mat-card-actions>
+    </mat-card-content>
+</mat-card>
